@@ -1,0 +1,66 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# Pipeline artifacts
+_SOURCE/
+_SOURCE.zip
+_META/
+
+# Development scaffolding (kept locally, not part of the product)
+misc/
+enrich_tools/
+architecture/
+Default_CLIandGUIprompt*.txt
+auto_click.py
+capture_mouse_position.py
+config.json
+find_all_buttons.py
+find_buttons.py
+find_center_button.py
+fix_position.py
+llm_click.py
+test_gui.py
+templates/
+configs/perf_test_config.json
+
+# Dead core modules (kept locally for reference)
+core/api/
+core/app_service.py
+core/calibration/
+core/capture/capture_pipeline.py
+core/capture/dxgi_screen_capture.py
+core/capture/ffmpeg_screen_capture.py
+core/capture/unified_capture_interface.py
+core/config/
+core/control/
+core/errors/
+core/io/
+core/logging/
+core/profiling/
+core/sessions/
+
+# User-specific settings (copy viewer_settings.example.json to get started)
+configs/viewer_settings.json
+
+# Claude Code instructions
+CLAUDE.md
+
+# Screenshots and captures
+llm_screenshots/
+search_regions/
+
+# Calibration output
+core/calibration/*_results_*.json
+core/calibration/*_session_log.json
+core/calibration/*_feedback_*.json
+
+# Build/binary artifacts
+*.exe
+*.rar
+*.zip
+*.bak
+
+# Test artifacts
+test_gui_config.json
+.claude/
