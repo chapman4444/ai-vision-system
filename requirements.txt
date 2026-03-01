@@ -1,0 +1,20 @@
+# AI Vision System Requirements
+
+# Core dependencies
+numpy>=1.21.0
+Pillow>=9.0.0
+
+# GUI framework (tkinter is built-in with Python)
+
+# Windows-specific (for GDI+ access)
+# These are typically included with Windows Python installations
+# ctypes  # Built-in module
+# ctypes.wintypes  # Built-in module
+
+# Optional: For enhanced image processing
+# opencv-python>=4.5.0  # Uncomment if you want OpenCV support
+# scikit-image>=0.18.0  # Uncomment for advanced image processing
+
+# Development and testing
+# pytest>=6.0.0  # Uncomment for testing
+# black>=21.0.0  # Uncomment for code formatting

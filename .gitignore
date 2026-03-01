@@ -1,0 +1,114 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# AI Vision System specific
+claude_workspace/
+claude_session/
+ai_vision_interface/responses/
+ai_vision_interface/images/
+sessions/
+temp/
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.tiff
+*.log
+
+# Keep example images
+!examples/*.png
+!docs/*.png
+
+# Config files with sensitive data
+session_sync_settings.json
+
+# Service files
+service.log
+service_status.json
+status.json
+
+# Temporary and output files
+out.txt
+nul
+
+# Excluded directories
+delete/
+prompt_reports/
+.claude/
+
+# Binary and archive files
+*.exe
+*.rar
+*.zip
+
+# Local/generated files
+.prompt_selections.json
+calibration_results_*.json
+automation_sessions/

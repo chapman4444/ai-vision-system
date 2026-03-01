@@ -1,0 +1,18 @@
+{
+  "output_path": "claude_session/current_view.png",
+  "archive_folder": "claude_session/archive",
+  "monitor_target": "primary",
+  "cursor_type": "cross",
+  "cursor_size": 15,
+  "cursor_thickness": 3,
+  "window_width": 1632,
+  "window_height": 968,
+  "sizing_mode": "width_based",
+  "target_width": 800,
+  "target_height": 800,
+  "capture_interval": 2.0,
+  "pixel_threshold": 5.0,
+  "detection_method": "random",
+  "sample_points": 100,
+  "fixed_coords": "100,100;500,300;800,600"
+}
